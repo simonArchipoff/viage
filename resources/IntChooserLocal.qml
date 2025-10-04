@@ -7,9 +7,9 @@ import QtQuick.Controls.Material.impl
 ColumnLayout {
     spacing: 12
 
-    required property int numberOf
+    property int numberOf : 0
     required property string name
-    property var onEdit: function(value) {}
+    property var onEdit
     property int minimum: 0
     property int maximum
     property int step: 1
